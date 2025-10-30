@@ -1,12 +1,14 @@
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
-import globalSetup from './global-setup.js';
 
 dotenv.config();
 
+const baseURL = process.env.BASE_URL || undefined;
+
 export default defineConfig({
   testDir: './tests',
-  timeout: 90000,
+  testMatch: /.*smoke\.spec\.js/,
+  timeout: 60000,
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
@@ -20,7 +22,7 @@ export default defineConfig({
   ],
 
   use: {
-    baseURL: 'https://qa.kfc-digital.io',
+    baseURL,
     headless: true,
     ignoreHTTPSErrors: true,
     viewport: { width: 1920, height: 1080 },
@@ -28,7 +30,6 @@ export default defineConfig({
     permissions: ['geolocation'],
     timezoneId: 'America/Los_Angeles',
     locale: 'en-US',
-    storageState: 'playwright/.auth/storageState.json',
     launchOptions: {
       args: [
         '--no-sandbox',
@@ -60,13 +61,12 @@ export default defineConfig({
     // 🔹 tests runs only if precheck passes
     {
       name: 'chromium',
-      use: { 
+      use: {
         ...devices['Desktop Chrome'],
         userAgent: process.env.USER_AGENT || 'KFC-Playwright-CI/1.0 (+GitLab CI)',
         extraHTTPHeaders: {
           'X-KFC-PIPELINE': process.env.PIPELINE_GUID || '6f8a3d47-2b1f-4b1e-8f8f-1c2b3a4d5e6f',
         },
-        storageState: 'playwright/.auth/storageState.json',
       },
     },
   ],

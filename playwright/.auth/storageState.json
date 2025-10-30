@@ -1,0 +1,178 @@
+{
+  "cookies": [
+    {
+      "name": "PIM-SESSION-ID",
+      "value": "ktdhMmBUwBtQcm2B",
+      "domain": ".kfc-digital.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ab.storage.sessionId.505b4632-3455-401f-8d6e-5bad82f15884",
+      "value": "%7B%22g%22%3A%22804bce7c-8f70-2ff0-92be-193b95634911%22%2C%22e%22%3A1759329269217%2C%22c%22%3A1759327469217%2C%22l%22%3A1759327469217%7D",
+      "domain": ".kfc-digital.io",
+      "path": "/",
+      "expires": 1793887469,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ab.storage.userId.505b4632-3455-401f-8d6e-5bad82f15884",
+      "value": "%7B%22g%22%3A%229121991187095346447%22%2C%22c%22%3A1759327469215%2C%22l%22%3A1759327469219%7D",
+      "domain": ".kfc-digital.io",
+      "path": "/",
+      "expires": 1793887469,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ab.storage.deviceId.505b4632-3455-401f-8d6e-5bad82f15884",
+      "value": "%7B%22g%22%3A%225a03ccbb-a1a2-36dd-4e8d-ed6a47f1a351%22%2C%22c%22%3A1759327469220%2C%22l%22%3A1759327469220%7D",
+      "domain": ".kfc-digital.io",
+      "path": "/",
+      "expires": 1793887469,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "rum=2&id=4e1f5b2b-a0ac-4ca2-bafa-8f2dfc6372fc&created=1759327465944&expire=1759328365956&logs=1",
+      "domain": "qa.kfc-digital.io",
+      "path": "/",
+      "expires": 1759328400,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://qa.kfc-digital.io",
+      "localStorage": [
+        {
+          "name": "ab.storage.sdk_metadata.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":[\"npm\",\"mp\"]}"
+        },
+        {
+          "name": "mprtcl-tos-2BC5B400",
+          "value": "1357"
+        },
+        {
+          "name": "ab.storage.lastReqToEndpoint.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":{\"d\":1759327481049}}"
+        },
+        {
+          "name": "mprtcl-v4_2BC5B400-id-cache",
+          "value": ""
+        },
+        {
+          "name": "ab.storage.userId.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":{\"g\":\"9121991187095346447\",\"c\":1759327469215,\"l\":1759327469219}}"
+        },
+        {
+          "name": "ab.storage.serverConfig.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":{\"s\":\"4.8.0\",\"l\":1749221314,\"e\":[],\"a\":[\"Last Category Viewed\",\"Last Order Date\",\"Last Page Seen Timestamp\",\"Last Product Page Viewed\",\"Last Product Viewed\",\"Last Seen Date\"],\"p\":[],\"m\":21600,\"v\":\"BGQdUox-O9S2gMj4j-uLswMDFCPuihsqRYMVcTzsXk19_S9rtsOm_qnFeDS4zWXi_csyVlV5F2N3Fg9IDlNXyz8=\",\"c\":{\"enabled\":true},\"f\":{}}}"
+        },
+        {
+          "name": "ab.storage.session_id_for_cached_metadata.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":\"804bce7c-8f70-2ff0-92be-193b95634911\"}"
+        },
+        {
+          "name": "RECENT_SEARCH",
+          "value": "[]"
+        },
+        {
+          "name": "ab.storage.triggers.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":[{\"i\":\"646e6bb2362a8645c231e43d\",\"c\":[{\"t\":\"custom_event_property\",\"d\":{\"e\":\"Location Change\",\"pf\":[[{\"k\":\"StoreId\",\"t\":\"string\",\"c\":1,\"v\":\"Y300020\"}]]}}],\"s\":\"2023-11-15T19:10:00.000Z\",\"e\":null,\"p\":1000051000,\"t\":\"templated_iam\",\"da\":{\"trigger_id\":\"NjQ2ZTZiYjIzNjJhODY0NWMyMzFlNDNkXyRfbXY9NjQ2ZTZiYjIzNjJhODY0NWMyMzFlNDQ3JnBpPWNtcA==\"},\"d\":0,\"r\":0,\"tm\":30000,\"ld\":null}]}"
+        },
+        {
+          "name": "AUTHORIZATION_DATA",
+          "value": "{\"accessToken\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6InByaXZhdGU6NWY3NDQ4NjUtMWM3Zi00NGM0LTlkY2QtODkxYjc1NDc5OWJhIn0.eyJleHQiOnsib3JnX2lkIjoia2ZjX3VzIiwiaXNfZ3Vlc3QiOnRydWV9LCJqdGkiOiI3MXJQWlhXYnpWT0N5bm43cTFPQnciLCJzdWIiOiI5Y2NhYTE5YS00YjllLTQwOWEtYjNkMC01NTI0NGNkMzk1NGUiLCJpYXQiOjE3NTkzMjc0NjYsImV4cCI6MTc1OTMzMTA2NiwiY2xpZW50X2lkIjoia2ZjX3VzX3dlYl9wd2xlc3MiLCJpc3MiOiJodHRwczovL2FwaS5zdGFnaW5nLnl1bWNvbm5lY3QuZGV2L3YxL29pZGMvIiwiYXVkIjoia2ZjX3VzX3dlYl9wd2xlc3MifQ.Kt-wb6QzUeCbs22P3qvf_w_c2ieIwqOPWGJzCe_w4fy0xGcLCSdIm0zqaYJB9wdEdNp96vHKmL030fgZ8Y_x7xx5dZQEH82_WdZJHv0RBNowXDs9gZNVCHdlH1EQNBJBaF2dJwb6wiU8VrtjB2tpItofjhPWDKGUrwPI0tyyjcAR6U9ODgia42CeODetUPGYStkb8KjOjaI-WaH4v4oeNSxfkpGONP0qydw3G3KwGL9WmCSA8WsB5mer_oOsKSJCwvF1w62HlZuz7LvfVZ_xKKu-kp4P009CaTPKV9McCkG1ESFiLRjjYCBwXTs6alkjPWOpNCFhXdH5Mi76Jxpefg\",\"refreshToken\":\"mD-wYNX0eS1wx6KPgYMiQcaTtFrE4tINLJbUNWHGx6T\",\"accessTokenExpirationDate\":1759331066,\"isGuest\":true}"
+        },
+        {
+          "name": "mprtcl-prodv4_2BC5B400",
+          "value": "eyI5MTIxOTkxMTg3MDk1MzQ2NDQ3Ijp7ImNwIjpbXX19"
+        },
+        {
+          "name": "CURRENT_TAB_LOCAL_STORAGE_KEY",
+          "value": "1"
+        },
+        {
+          "name": "ab.storage.device.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":{\"browser\":\"Chrome\",\"browser_version\":\"136\",\"os_version\":\"Windows\",\"resolution\":\"1280x720\",\"locale\":\"en-in\",\"time_zone\":\"Asia/Calcutta\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/136.0.7103.25 Safari/537.36\"}}"
+        },
+        {
+          "name": "ab.storage.triggers.ts.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":1759327471045}"
+        },
+        {
+          "name": "mprtcl-v4_2BC5B400-batches",
+          "value": ""
+        },
+        {
+          "name": "ab.storage.sessionId.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":{\"g\":\"804bce7c-8f70-2ff0-92be-193b95634911\",\"e\":1759329269217,\"c\":1759327469217,\"l\":1759327469217}}"
+        },
+        {
+          "name": "ab.storage.messagingSessionStart.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":1759327469217}"
+        },
+        {
+          "name": "ab.storage.deviceId.505b4632-3455-401f-8d6e-5bad82f15884",
+          "value": "{\"v\":{\"g\":\"5a03ccbb-a1a2-36dd-4e8d-ed6a47f1a351\",\"c\":1759327469220,\"l\":1759327469220}}"
+        },
+        {
+          "name": "GULP_SC2",
+          "value": "ZXlJbVlteG5KQ0k2TUM0eE1USTNOek0zTURNNE56UTBNalE0TjMwPQ=="
+        },
+        {
+          "name": "mprtcl-v4_2BC5B400",
+          "value": "{'gs':{'ie':1|'dt':'us1-dabd7ce671f8fc40b835a24a2604ec5a'|'cgid':'57a60e9b-3401-48e1-6a26-d7af8f9e1e2d'|'das':'932666b6-5c2e-4434-fbaa-cd4ed945d036'|'csm':'WyI5MTIxOTkxMTg3MDk1MzQ2NDQ3Il0='|'sid':'3EB56CCD-976F-4637-93B1-D680F12E9852'|'les':1759327469228|'ssd':1759327467879}|'l':0|'9121991187095346447':{'fst':1759327469207}|'cu':'9121991187095346447'}"
+        },
+        {
+          "name": "branch_session_first",
+          "value": "{\"browser_fingerprint_id\":\"MTUwMTkzNTE3MDc1OTAwNjkyMQ==\",\"data\":\"{\\\"+clicked_branch_link\\\":false,\\\"+is_first_session\\\":true}\",\"has_app\":false,\"identity_id\":\"1501935177524670442\",\"link\":\"https://kfc.test-app.link?%24identity_id=1501935177524670442\",\"session_id\":\"1501935177524432825\",\"identity\":\"9121991187095346447\"}"
+        },
+        {
+          "name": "CACHED_SEARCH_HISTORY",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "origin": "https://kfcus-stage.quiq-api.com",
+      "localStorage": [
+        {
+          "name": "quiq-visitedActions-kfcus-stage_6745a8c8-24db-4c92-a79f-fdaa69edf862",
+          "value": "[]"
+        },
+        {
+          "name": "quiq-visitedActions-with-timestamp-kfcus-stage_6745a8c8-24db-4c92-a79f-fdaa69edf862",
+          "value": "{}"
+        },
+        {
+          "name": "quiq-admin-mode-enabled_kfcus-stage",
+          "value": "false"
+        },
+        {
+          "name": "quiq-eventStream-kfcus-stage_6745a8c8-24db-4c92-a79f-fdaa69edf862",
+          "value": "[{\"type\":\"page-viewed\",\"data\":{\"timestamp\":1759327483401,\"url\":\"https://qa.kfc-digital.io/\"},\"authorType\":\"Customer\",\"id\":\"mid.1759327483401.29de6df77d093c988f\"}]"
+        },
+        {
+          "name": "quiq-conversation-starter-current-contact-point_kfcus-stage_customer-support",
+          "value": "{\"name\":null,\"webchatVisibilityStatus\":\"closed\"}"
+        },
+        {
+          "name": "quiq-lastActive-kfcus-stage_6745a8c8-24db-4c92-a79f-fdaa69edf862",
+          "value": "1759327483402"
+        }
+      ]
+    }
+  ]
+}

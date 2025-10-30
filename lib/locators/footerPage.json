@@ -1,0 +1,40 @@
+{
+    "buttons": {
+      "dismissNoticeButton": "role=button[name='Dismiss Notice']"
+    },
+    "links": {
+      "privacyCenterLink": "role=link[name='Privacy Center']",
+      "termsOfUseLink": "role=link[name='Terms of Use']",
+      "cookiesAndAdsLink": "role=link[name='Our Cookies and Ads']",
+      "accessibilityStatementLink": "role=link[name='Accessibility Statement']",
+      "kfcRewardsTermsLink": "role=link[name='KFC Rewards Terms']",
+      "faqLink": "role=link[name='FAQ']"
+    },
+    "landmarks": {
+      "contentInfo": "role=contentinfo"
+    },
+     "footerLinks": {
+    "MenuFooterLink": "//span[normalize-space()='Menu']",
+     "fullNutritionGuide": "//span[normalize-space()='Full Nutrition Guide']",
+     "nutritionCalculator": "//span[normalize-space()='Nutrition Calculator']",
+     "foodAllergies": "//span[normalize-space()='Food Allergies & Sensitivities']",
+     "restaurantCareers": "//span[normalize-space()='Restaurant Careers']",
+     "corporateCareers": "//span[normalize-space()='Corporate Careers']",
+     "culture" :"//span[normalize-space()='Culture']",
+     "growth" :"//span[normalize-space()='Growth']",
+     "aboutKfc": "//span[normalize-space()='About KFC']",
+     "howWeMakeChicken": "//span[normalize-space()='How We Make Chicken']",
+     "faqs": "//span[normalize-space()='FAQs']",
+     "contactUs": "//span[normalize-space()='Contact Us']",
+     "facebook": "//span[normalize-space()='Facebook']",
+     "Twitter": "//span[normalize-space()='X']",
+     "instagram": "//span[normalize-space()='Instagram']",
+     "kfcApp": "//span[normalize-space()='KFC App']",
+     "kfcFoundation": "//span[normalize-space()='KFC Foundation']",
+     "companyResponsibility": "//span[normalize-space()='Company Responsibility']",
+     "franchiseAKfc": "//span[normalize-space()='Franchise a KFC']",
+     "kfcNewsroom": "//span[normalize-space()='KFC Newsroom']",
+      "kfcMerch": "//span[normalize-space()='KFC Merch']"
+     }
+}
+  

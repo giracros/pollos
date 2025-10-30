@@ -1,0 +1,7 @@
+{
+    "receipt": {
+      "button_viewReceipt": "//a[text()='View Receipt']",
+      "receiptCloseButton": "button[title='Close']"
+    }
+}
+  

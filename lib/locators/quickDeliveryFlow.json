@@ -1,0 +1,8 @@
+{
+    "autoSuggestionFirstItem": "#react-autowhatever-1-section-0-item-0",
+    "mapContainer": ".gm-style > div > div:nth-child(2)",
+    "useMyCurrentLocationButton": "button:has-text('Use My Current Location')",
+    "searchPlaceholder": "input[placeholder='Enter Delivery Address']",
+    "storeLocationCard": "[data-testid='location-card-cta']",
+    "autoSuggestionItem": "li[role='option']"
+}

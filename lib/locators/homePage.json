@@ -1,0 +1,35 @@
+{
+    "header": {
+      "profileIcon": "//a[contains(@class,'header__profile')]"
+    },
+    "orderFlow": {
+      "buttonStartOrder": "//button/div[text()='Start Order']",
+      "buttonSelectStore": "//div[@id='preorder-bar']//button[text()='Select a store to start your order.']",
+      "localizationPickUpTab": "//button[@aria-label='PICK-UP']",
+      "pickupInputField": "//input[@placeholder='Search by State, City or Zip']",
+      "orderNowButton": "//button//div[text()='Order Now']",
+      "cartIcon": "//a[@title='Bag']",
+      "rewardsButton": "//a[text()='Rewards']",
+      "checkoutPageProfileIcon": "a[title='My account']",
+      "clearMyBagButton": "//button[text()='Clear My Bag']",
+      "confirmClearBagButton": "//div[text()='Clear Bag']",
+      "backToMenuButton": "//div[contains(text(),'Back to Menu')]"
+    },
+    "heroBanner": {
+      "paginationButton": "//div[contains(@class,'pagination')]//button",
+      "reedemButton": "//div[@data-active='true']//a[contains(@class,'Button')]/div"
+    },
+    "oneTapFavorites": {
+      "customizeButton": "//div[contains(@class,'OneTapProductCard')]//a",
+      "header": "//div[contains(@class,'OneTapFavoritesHeader')]/h3",
+      "itemsBar": "//div[contains(@class,'card-carousel__items')]",
+      "itemsName": "//div[contains(@class,'OneTapProductCard')]/h6"
+    },
+    "menuCategory": {
+      "header": "//div[contains(@class,'PlpProductCategory')]/h2"
+    },
+    "pdp": {
+      "itemName": "//div[contains(@class,'pdp-receipt')]//h2"
+    }
+}
+  

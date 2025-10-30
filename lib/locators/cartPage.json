@@ -1,0 +1,11 @@
+{
+    "buttons": {
+      "addToBagButton": "button[data-gtm='AddToBag']", 
+      "checkoutButton": "button[data-gtm='Purchase']",
+      "increaseQuantityButton": "button[title='Increase Quantity']"
+    },
+    "icons": {
+      "cartIcon": "//a[@title='Bag']//div"
+    }
+}
+  

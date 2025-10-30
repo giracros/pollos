@@ -1,0 +1,10 @@
+{
+    "headerLinks": {
+      "menu": "header >> role=link[name='Menu']",
+      "rewards": "header >> role=link[name='Rewards']",
+      "careers": "header >> role=link[name='Careers']",
+      "giftCards": "header >> role=link[name*='Gift']",
+      "findAKFC": "header >> role=link[name^='Find A KFC']"
+    }
+}
+  

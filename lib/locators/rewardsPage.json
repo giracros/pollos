@@ -1,0 +1,16 @@
+{
+    "rewards": {
+      "rewardsLink": "//li//button[text()='Rewards']",
+      "redeemButton": "//span[text()='Redeem']",
+      "replaceAndRedeemButton": "//span[text()='Replace and Redeem']"
+    },
+    "cart": {
+      "cartIcon": "//a[@title='Bag']//div",
+      "cartPageCheckout": "//span[text()='Checkout']",
+      "continueToCheckout": "//span[text()='Continue To Checkout']",
+      "continueOrderDetailConfirmation": "//a[contains(@class,'button')]//div[text()='Continue']",
+      "placeOrder": "//span[text()='Place Order']",
+      "backToMenu": "//a[@href='/menu']//div"
+    }
+}
+  

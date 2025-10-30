@@ -1,0 +1,13 @@
+{
+    "inputs": {
+      "firstNameInput": "input[id='first-name']",
+      "lastNameInput": "input[id='last-name']",
+      "emailInput": "input[id='email']",
+      "phoneNumberInput": "input[id='phone']"
+    },
+    "buttons": {
+      "placeOrderButton": "button[data-gtm='button-ecom']",
+      "backToMenuButton": "//div[contains(text(),'Back to Menu')]"
+    }
+}
+  

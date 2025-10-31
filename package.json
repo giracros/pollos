@@ -4,7 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "setup": "playwright install --with-deps"
   },
   "keywords": [],
   "author": "",
